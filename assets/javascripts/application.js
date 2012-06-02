@@ -1,10 +1,8 @@
 //= require_self
 //= require_tree ../templates
 //= require_tree .
-
-if not QoP?
-  QoP = {}
-
+var QoP;
+if (!(typeof QoP !== "undefined" && QoP !== null)) QoP = {};
 QoP.ServerBase = "https://YOURAPPNAMEHERE.herokuapp.com";
 
 
