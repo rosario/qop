@@ -1,0 +1,4 @@
+<p id="contact_<%=@user.uid%>" class='user'>
+	<img src="<%=QoP.ServerBase%>/stylesheets/images/knob_green.png">
+	<%= @user.nickname %>
+</p>

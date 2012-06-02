@@ -1,0 +1,3 @@
+<% for friend in @friends: %>
+	<p id="<%=friend.uid%>" class='user'><%= friend.nickname %></p>
+<% end %>

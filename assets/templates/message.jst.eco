@@ -1,0 +1,4 @@
+<div class="chatboxmessage">
+  <span class="chatboxmessagefrom"><%= @nickname %>:&nbsp;</span>
+  <span class="chatboxmessagecontent"><%= @text %></span>
+</div>

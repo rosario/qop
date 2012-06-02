@@ -1,0 +1,170 @@
+/* only used for firefox */
+
+#qop{
+    left:1px; 
+    bottom:0px;
+    height:308px;
+    width:auto;
+    margin:0;padding:0;
+    position:fixed;
+    z-index:500000;
+    text-align:left;
+    font: 14px/18px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;    
+}
+
+
+#qop .chatbox {
+  float:left;
+  width: 225px;
+  height:auto;
+  margin-left:5px;
+}
+
+#qop .chatboxhead {
+  
+  background-color: #4B8DF8;
+  padding:3px;
+  color: #fff;
+  
+  
+}
+
+#qop .chatboxblink {
+  background-color: #176689;
+  border-right:1px solid #176689;
+  border-left:1px solid #176689;
+
+}
+
+#qop .chatboxcontent {
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #333333;
+  height:200px;
+  width:209px;
+  overflow-y:auto;
+  overflow-x:auto;
+  padding:7px;
+  border-left:1px solid #cccccc;
+  border-right:1px solid #cccccc;
+  background-color: #ffffff;
+  line-height: 1.3em;
+
+}
+#qop .contactlist{
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #333333;
+  height:269px;
+  width:209px;
+  overflow-y:auto;
+  overflow-x:auto;
+  padding:7px;
+  border-left:1px solid #cccccc;
+  border-right:1px solid #cccccc;
+  border-bottom:1px solid #eeeeee;
+  background-color: #ffffff;
+  line-height: 1.3em;
+}
+
+#qop .friends_list {
+  font-weight: bold;
+  font-size: 13px; 
+  color: #333;
+  line-height: 1.3em;   
+}
+
+#qop p.user {
+  margin:0px;
+  padding:5px;
+}
+#qop p.user img {
+  width:10px;
+  margin-right:5px;
+  display: inline;
+}
+
+#qop p.user:hover {
+  background:#ced;
+  cursor:pointer;
+  
+}
+
+#qop .chatboxinput {
+  color: #131313;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 1.3em; 
+  padding: 5px;
+  background-color: #ffffff;
+  border-left:1px solid #cccccc;
+  border-right:1px solid #cccccc;
+  border-bottom:1px solid #cccccc;
+}
+
+#qop .chatboxtextarea {
+  color: #333;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 1.3em;
+  width: 206px;
+  height:48px;
+  padding:3px 0pt 3px 3px;
+  border: 1px solid #888;
+  margin: 1px;
+  overflow:hidden;
+  resize:none;
+}
+
+#qop .chatboxtextareaselected {
+  border: 2px solid #f99d39;
+  margin:0;
+}
+
+#qop .chatboxmessage {
+  margin-left:1em;
+}
+
+#qop .chatboxinfo {
+  margin-left:-1em;
+  color:#666666;
+
+}
+
+#qop .chatboxmessagefrom {
+  margin-left:-1em;
+  font-weight: bold;
+}
+
+#qop .chatboxmessagecontent {
+}
+
+#qop .chatboxoptions {
+  float: right;
+}
+
+
+#qop .chatboxoptions span {
+  text-decoration: none;
+  color: white;
+  font-weight:bold;
+  font-family:Verdana;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:2px;
+  padding-right:2px;
+  cursor:pointer;
+}
+
+#qop .chatboxoptions span:hover {
+  background:#ccc;
+}
+
+
+
+#qop .chatboxtitle {
+  float: left;
+  font-weight:bold;
+  font-family:Arial, Verdana;
+}

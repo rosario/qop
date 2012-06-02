@@ -1,0 +1,11 @@
+<div id="<%=@id%>" class="chatbox">
+  <div class="chatboxhead">
+    <div class="chatboxtitle"><%= @name %></div>
+    <div class="chatboxoptions">	
+		<span id="raise" style="display:none;">&oline;</span>
+      	<span id="lower">_</span>
+		<span id="close">&Chi;</span>
+    </div>
+    <br clear="all">
+  </div>
+</div>

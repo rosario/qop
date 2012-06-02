@@ -1,0 +1,4 @@
+<div style="text-align:center">
+	You need to login
+	<a href="<%=QoP.ServerBase %>/sign_in?redirect=<%=@redirect%>"> Sign in </a>
+</div>

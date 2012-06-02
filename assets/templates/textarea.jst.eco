@@ -1,0 +1,3 @@
+<div class="chatboxinput" data-uid="<%=@id%>" style="display: block;">
+  <textarea id="qop_chatbox" class="chatboxtextarea"></textarea>
+</div>

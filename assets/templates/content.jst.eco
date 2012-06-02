@@ -1,0 +1,4 @@
+<div id="<%=@id%>" class="contactlist" style="display:block;">
+	<div class="friends_list">
+	</div>
+</div>
